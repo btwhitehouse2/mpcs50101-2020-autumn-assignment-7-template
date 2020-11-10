@@ -1,6 +1,9 @@
 import pytest
 from fraction import Fraction
-  
+
+def test_input_output():
+    print("Input Output Test")
+    
 def test_initialization():
     """Test fraction creation"""
     f1 = 0.625
